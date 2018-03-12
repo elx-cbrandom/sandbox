@@ -13,5 +13,6 @@ public class Shovel {
 
     private void dig() {
         System.out.println( "Can you dig it?" );
+        System.out.println( "Can we fix it?" );
     }
 }
