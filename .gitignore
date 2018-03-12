@@ -5,7 +5,23 @@
 gradle-app.setting
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# IntelliJ Files
+**/.idea/workspace.xml
+**/.idea/libraries
+**/.idea/sonarlint
+**/.idea/modules
+**/.idea/dictionaries
+**/.idea/gradle.xml
+**/.idea/modules.xml
+**/.idea/misc.xml
+**/.idea/vcs.xml
+**/.idea/uiDesigner.xml
+.idea
+/idea/**
+*.iml
+**/.gradle
+**/.vertx
+!**/gradle/wrapper/*.jar
 
 # Cache of project
 .gradletasknamecache
